@@ -1,7 +1,7 @@
 {
 	"name": "notion-crawler",
-	"version": "0.0.2",
-	"description": "My awesome module",
+	"version": "0.0.3",
+	"description": "Easily crawl your public notion pages",
 	"license": "MIT",
 	"repository": "AshikNesin/notion-crawler",
 	"author": {
@@ -9,13 +9,15 @@
 		"email": "mail@ashiknesin.com",
 		"url": "https://ashiknesin.com"
 	},
-	"type": "module",
-	"exports": "./index.js",
-	"engines": {
-		"node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+	"source": "src/index.js",
+	"main": "dist/main.js",
+	"module": "dist/module.js",
+	"scripts": {
+		"watch": "parcel watch",
+		"build": "parcel build"
 	},
 	"files": [
-		"index.js"
+		"dist/**/*"
 	],
 	"keywords": [
 		"notion",
@@ -24,5 +26,8 @@
 	"dependencies": {
 		"notion-client": "^4.11.1",
 		"notion-utils": "^4.10.0"
+	},
+	"devDependencies": {
+		"parcel": "^2.0.1"
 	}
 }
