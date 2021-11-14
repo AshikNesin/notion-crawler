@@ -1,6 +1,6 @@
 {
 	"name": "notion-crawler",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "Easily crawl your public notion pages",
 	"license": "MIT",
 	"repository": "AshikNesin/notion-crawler",
