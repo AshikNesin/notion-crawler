@@ -1,0 +1,31 @@
+{
+	"name": "notion-crawler",
+	"version": "0.0.1",
+	"description": "My awesome module",
+	"license": "MIT",
+	"repository": "AshikNesin/notion-crawler",
+	"author": {
+		"name": "Ashik Nesin",
+		"email": "mail@ashiknesin.com",
+		"url": "https://ashiknesin.com"
+	},
+	"type": "module",
+	"exports": "./index.js",
+	"engines": {
+		"node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"notion",
+		"crawling"
+	],
+	"dependencies": {
+		"notion-client": "^4.11.1",
+		"notion-utils": "^4.10.0"
+	}
+}
