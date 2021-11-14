@@ -13,7 +13,7 @@ npm install notion-crawler
 ```js
 import notionCrawler from "notion-crawler";
 
-const { pageBlocks, notionPageIdToSlugMapper, pageMap } = notionCrawler(
+const { pageBlocks, notionPageIdToSlugMapper, pageMap } = await notionCrawler(
   rootNotionPageId,
   spaceId,
   config
