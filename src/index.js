@@ -33,7 +33,8 @@ export default async function notionCrawler(
     }
 
     const canonicalPageId =
-      rootNotionPageId === (pageId || "").split("-").join("")
+      (rootNotionPageId || "").split("-").join("") ===
+      (pageId || "").split("-").join("")
         ? "/"
         : getCanonicalPageId(pageId, recordMap, {
             uuid: false,
