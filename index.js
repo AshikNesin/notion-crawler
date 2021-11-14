@@ -49,7 +49,7 @@ export default async function notionCrawler(
         parentId: blockValue.parent_id.split("-").join(""),
         canonicalPageId,
         title,
-        //   rawData: blockValue,
+        rawData: blockValue,
       },
     };
 
