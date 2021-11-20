@@ -94,6 +94,10 @@ export default async function notionCrawler(
     if (pageBlocks[key].slug.startsWith("//")) {
       pageBlocks[key].slug = pageBlocks[key].slug.slice(1);
     }
+    if (!pageBlocks[key].slug.startsWith("/")) {
+      pageBlocks[key].slug = `/${pageBlocks[key].slug}`;
+    }
+
     notionPageIdToSlugMapper[key] = pageBlocks[key].slug;
   }
 
