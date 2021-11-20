@@ -92,7 +92,7 @@ export default async function notionCrawler(
 
     // TODO: Temp fix. Refactor this.
     if (pageBlocks[key].slug.startsWith("//")) {
-      pageBlocks[key].slug = pageBlocks[key].slug.slice(2);
+      pageBlocks[key].slug = pageBlocks[key].slug.slice(1);
     }
     notionPageIdToSlugMapper[key] = pageBlocks[key].slug;
   }
