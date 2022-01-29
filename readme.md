@@ -45,4 +45,4 @@ Default: `{}`
 
 ## Credits
 
-This module is hevily based on [nextjs-notion-starter-kit](https://github.com/transitive-bullshit/nextjs-notion-starter-kit) by [Travis Fischer](https://transitivebullsh.it)
+This module is heavily based on [nextjs-notion-starter-kit](https://github.com/transitive-bullshit/nextjs-notion-starter-kit) by [Travis Fischer](https://transitivebullsh.it)
