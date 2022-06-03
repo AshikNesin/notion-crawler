@@ -1,34 +1,34 @@
 {
-	"name": "notion-crawler",
-	"version": "0.0.7-0",
-	"description": "Easily crawl your public notion pages",
-	"license": "MIT",
-	"repository": "AshikNesin/notion-crawler",
-	"author": {
-		"name": "Ashik Nesin",
-		"email": "mail@ashiknesin.com",
-		"url": "https://ashiknesin.com"
-	},
-	"source": "src/index.js",
-	"main": "dist/main.js",
-	"module": "dist/module.js",
-	"scripts": {
-		"watch": "parcel watch",
-		"build": "parcel build",
-		"prepublish": "npm run build"
-	},
-	"files": [
-		"dist/**/*"
-	],
-	"keywords": [
-		"notion",
-		"crawling"
-	],
-	"dependencies": {
-		"notion-client": "^4.11.1",
-		"notion-utils": "^4.10.0"
-	},
-	"devDependencies": {
-		"parcel": "^2.0.1"
-	}
+  "name": "notion-crawler",
+  "version": "0.0.8",
+  "description": "Easily crawl your public notion pages",
+  "license": "MIT",
+  "repository": "AshikNesin/notion-crawler",
+  "author": {
+    "name": "Ashik Nesin",
+    "email": "mail@ashiknesin.com",
+    "url": "https://ashiknesin.com"
+  },
+  "source": "src/index.js",
+  "main": "dist/main.js",
+  "module": "dist/module.js",
+  "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build",
+    "prepublish": "npm run build"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "keywords": [
+    "notion",
+    "crawling"
+  ],
+  "dependencies": {
+    "notion-client": "^4.19.8",
+    "notion-utils": "^4.19.8"
+  },
+  "devDependencies": {
+    "parcel": "^2.6.0"
+  }
 }
